@@ -43,11 +43,13 @@ A web-based application for managing users, vehicles, services, and admins. The 
 2. **Move to XAMPP's htdocs Folder**
 
 Copy the vms folder to your htdocs directory.
+
 3. **Set Up the Database**
 
 Open phpMyAdmin.
 Create a new database named vms.
 Import the .sql file located in the vms project folder.
+
 4. **Configure Database Connection**
 
 Update the db.php file with your database credentials:
