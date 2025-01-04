@@ -1,0 +1,126 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+/* Main Content Styling */
+#main-content {
+    background: linear-gradient(to bottom, #6dd5ed, #2193b0);
+    color: white;
+    padding: 80px 0;
+}
+
+#main-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#main-content .lead {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+/* Features Section Styling */
+#features {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+#features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.feature-icon {
+    margin-bottom: 20px;
+}
+
+.feature-icon img {
+    border-radius: 50%;
+    background-color: #007bff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonials Section Styling */
+#testimonials {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+#testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+header .navbar-brand {
+    font-size: 1.5rem;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer a {
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #17a2b8 !important;
+}
+/* Admin Button Custom Style */
+.admin-btn {
+    font-weight: bold; /* Make the font bold */
+    border-radius: 25px; /* Rounded corners */
+    padding: 8px 20px; /* Add padding for a better look */
+    transition: all 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.admin-btn:hover {
+    background-color: #ff8800; /* Darker orange on hover */
+    color: #ffffff; /* White text on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
